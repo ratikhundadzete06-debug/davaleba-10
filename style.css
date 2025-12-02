@@ -1,0 +1,112 @@
+body {
+  background-color: lightgray;
+  padding: 40px 140px;
+}
+
+header,
+.sec1 {
+  margin-bottom: 40px;
+}
+
+.menu {
+  display: none !important;
+}
+
+nav ul {
+  display: flex;
+  gap: 35px;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+}
+
+.sec1,
+.sec2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.sec1 div {
+  width: 365px;
+  height: 365px;
+  border: 1px solid black;
+}
+
+.sec2 .left-side,
+.sec2 .right-side {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sec2 .left-side {
+  gap: 40px;
+  max-width: 760px;
+}
+
+.sec2 .right-side {
+  gap: 100px;
+  max-width: 360px;
+}
+
+/* Homework section */
+
+.homework-section {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.homework-section .left-side {
+  width: 235px;
+  height: 200px;
+}
+
+.homework-section .left-side h4 {
+  font-size: 17px;
+  color: #636060;
+  padding-bottom: 10px;
+}
+
+.homework-section .left-side h1 {
+  color: #010101;
+  font-size: 28px;
+  padding-bottom: 35px;
+}
+
+.homework-section .left-side p {
+  color: #636060;
+  font-size: 20px;
+}
+
+.homework-section .right-side {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 950px;
+}
+
+.homework-section .right-side div {
+  width: 285px;
+  height: 300px;
+}
+
+.homework-section .right-side div img {
+  margin-bottom: 20px;
+}
+
+.homework-section .right-side div h1 {
+  margin-bottom: 10px;
+  color: #343232;
+  font-size: 19px;
+}
+
+.homework-section .right-side div p {
+  color: #636060;
+  font-size: 18px;
+}
